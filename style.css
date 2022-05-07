@@ -1,0 +1,267 @@
+#bth1{
+    background-image: url('./Assets/Illustrations/Home/Bathome1.png');
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+#btg1{
+    background-image: url('./Assets/Illustrations/Game/Batgame1.png');
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+#bth2{
+    background-color: black;
+    width: 100%;
+}
+
+#bth3{
+    background-image: url('./Assets/Illustrations/Home/Batslider1.png');
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    background: rgb(119,92,17);
+background: linear-gradient(142deg, rgba(119,92,17,1) 0%, rgba(31,62,69,1) 100%);
+}
+
+header{
+    padding: 2% 10% 0% 10%;
+    border:px;
+}
+
+#home-card{
+    display: flex;
+    padding-top: 11%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#button-container{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button{
+    padding: 15px 75px;
+    overflow: hidden;
+}
+
+.home-card-btn{
+    border: none;
+    color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.400);
+}
+
+.home-card-btn2{
+    border-color: blue;
+    border-width: 2px;
+    transform: scale(0.5);
+    color: rgba(255, 255, 255);
+    background-color: transparent;
+}
+
+
+#h1-aside{
+    position: absolute;
+    left: 85.4vw;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smimage1{
+    width: 20%;
+    margin: 20 0 20 0;
+}
+
+.smimage{
+    width: 90%;
+}
+
+
+
+.btn1{
+    float: left;
+    margin-right: 10px;
+}
+
+.btn2{
+    float: right;
+    margin-left: 10px;
+}
+
+hr.solid{
+    border-top: 5px solid rgba(255, 255, 255, 0.8);
+    margin: 2% 10% 0 10%;
+}
+
+.nl{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 20 0 20;
+}
+
+.text-top1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+p,h1,h2,h3,h4 , h5,h6{
+    padding-top: 2%;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: large;
+}
+
+#down-arrow{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#h2-container{
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 60%;
+}
+#h3-container{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+#sec2-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0 10% 0;
+    flex-wrap: wrap;
+}
+
+.sec2-image{
+
+}
+
+.slide-card{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-container{
+    display: flex;
+    margin:10%;
+}
+
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    background: rgb(119,92,17);
+    border-radius: 0 5% 5% 0;
+    background: linear-gradient(90deg, rgba(119,92,17,1) 0%, rgba(0,59,71,1) 100%);
+}
+
+#b9{
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+label{
+    color: white;
+    text-align: left;
+}
+
+input{
+    padding: 1%;
+    outline: 0;
+    width: 60%;
+    background-color: transparent;
+    border-width: 0 0 2px;
+    border-color: white
+}
+
+select{
+    padding: 1%;
+    outline: 0;
+    width: 60%;
+    background-color: transparent;
+    border-width: 0 0 2px;
+    border-color: white
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container>img{
+    padding: 10% 5% 10% 5%;
+    height: 10%;
+}
+
+.vr{
+    position: absolute;
+    border-left:5px solid rgba(255, 255, 255, 0.2);
+    height:800vh;
+    left: 90%;
+}
+.vrg{
+    position: absolute;
+    border-left:5px solid rgba(255, 255, 255, 0.2);
+    height:682.5vh;
+    left: 90%;
+}
+
+.quiz-container{
+    margin: 0 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.answer{
+    padding-right: 23%;
+    margin-right: 30%;
+    background-color: gray;
+    width: 30%;
+    height: fit-content;
+}
+
+.form-item{
+    background-color: gray;
+    width: 50%;
+    height: 20%;
+    margin: 1% 0 1% 0;
+}
+
+.bc-red{
+    background-color: rgba(93, 61, 61, 0.628) !important;
+}
